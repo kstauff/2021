@@ -1,9 +1,9 @@
-title: 2016 IEEE Cyber Science and Technology Congress (CyberSciTech 2016)
-description: CyberSciTech 2016
+title: The 6th IEEE Cyber Science and Technology Congress (CyberSciTech 2021) 
+description: CyberSciTech 2021
 
 
 
-baseurl: /bs2
+baseurl: /2021
 color-scheme: "#1979a9" # the scheme can be any HEX code like "#00aa55"
 
 sass:
