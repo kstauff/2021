@@ -1,8 +1,11 @@
-- title: Home
+- title: "Home"
   link: /
- 
- - title: Home
-  link: /
+
+- title: "Calls"
+  link: "/callpaper/"  
+
+- title: "Organization"
+  link: "/organization/"  
   dropdown:
   - title: "test"
     url: "/callpaper/"
