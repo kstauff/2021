@@ -22,8 +22,11 @@
           <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{
             item.title
           }}</a>
-          {% for item in item.dropdown %}
-          <li><a href="{{ site.baseurl }}">{{ item.link }}</a></li>
+          {% for item in site.data.menu.dropdown %}
+           <li class="nav-item{% if item.link == page.url %} active {% endif %}">
+          <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{
+            item.title
+          }}</a>
         {% endfor %}
           
         </li>
