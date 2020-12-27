@@ -7,7 +7,7 @@
 - title: "Organization"
   link: "/organization/"  
   dropdown:
-  - title: "test"
-    link: "/callpaper/"
+  - page: "test"
+    url: "/callpaper/"
 
 
