@@ -21,7 +21,7 @@
     <h3>{{ item.title }}</h3>
       <ul>
         {% for entry in item.dropdown %}
-          <li><a href="{{ item.link }}">{{ item.link }}</a></li>
+          <li><a href="{{ site.baseurl }}{{ item.link }}">{{ item.title}}</a></li>
         {% endfor %}
       </ul>
   {% endfor %}
