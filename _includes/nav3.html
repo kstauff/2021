@@ -19,7 +19,7 @@
    <ul class="navbar-nav ml-auto">
   
         {% for item in site.data.menu %}
-		 <li class="nav-item active  dropdown">
+		 <li class="nav-item active">
        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false href="{{ site.baseurl }}{{ item.link }}">{{ item.title}}</a>
      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         {% for entry in item.dropdown %}
