@@ -21,13 +21,14 @@
         {% for item in site.data.menu %}
 		 <li class="nav-item active">
         <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">{{ item.title}}</a></li>
-      </li>
-   
-      <ul>
+     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         {% for entry in item.dropdown %}
-          <li><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.page}}</a></li>
-        {% endfor %}
-      </ul>
+	     <a class="dropdown-item" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.page}}</a>
+        {% endfor %}    
+	   </div>
+	   
+	   </li>
+   
   {% endfor %}
       </ul>
 
